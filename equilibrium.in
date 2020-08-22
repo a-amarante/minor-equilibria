@@ -12,12 +12,12 @@
  maximum point x =  0.35
  minimum point y = -0.35
  maximum point y =  0.35
- minimum point z = -0.5
- maximum point z =  0.5
+ minimum point z = -0.05
+ maximum point z =  0.05
  number of subdivisions in x = 7
  number of subdivisions in y = 7
  number of subdivisions in z = 1
- accuracy of the equilibrium point = 1.0d-5
+ accuracy of the equilibrium point = 2.0d-5
  maximum number of iterations = 50000
 )---------------------------------------------------------------------
  which method do you wanna use (spider, random points, middle point) = spi
