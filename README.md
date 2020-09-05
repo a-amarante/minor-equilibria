@@ -3,7 +3,7 @@ Minor-Equilibria Package
 A package to find equilibria around irregular-shaped minor bodies, such as Asteroids and Comets.
 ---------------------------------
 
-I've implemented a modified version of the original POLYHEDRON code from D. Tsoulis into the Minor-Equilibria package, that can compute the gravitational potential, and its first and second derivatives of a homogenous polyhedron, according to Petrovic (J of G, 1996). In addition, the Minor-Equilibria package also can handle equilibrium points through mascons method. It was developed three types of algorithms called ``spider``, ``random`` and ``middle``, that can find automatically each equilibrium point around an irregular-shaped minor body to study their stabilities, through a defined metric space.
+I've implemented a modified version of the original POLYHEDRON code from D. Tsoulis into the Minor-Equilibria package, that can compute the gravitational potential, and its first and second derivatives of a homogenous polyhedron, according to Petrovic (J of G, 1996). In addition, the Minor-Equilibria package also can handle equilibrium points through mascons method (Geissler et al., 1996). It was developed three types of algorithms called ``spider``, ``random`` and ``middle``, that can find automatically each equilibrium point around an irregular-shaped minor body to study their stabilities, through a defined metric space.
 
 Notable contents of this repository
 ---------------------------
@@ -61,7 +61,7 @@ Or use the executable files ``minor-equilibria_gfort`` or ``minor-equilibria_ifo
 Tricks and Caveats
 ------------------
 
-Unfortunately, the code needs to be recompiled any time parameters in the ``equilibrium.inc`` file get changed.
+Unfortunately, the code needs to be recompiled any time parameters in the ``equilibrium.inc`` file get changed. However, these parameters do not need to be adjusted often or almost never.
 
 Disclaimers
 ------------
